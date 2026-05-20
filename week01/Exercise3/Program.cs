@@ -9,7 +9,7 @@ class Program
         while (response.ToLower() == "yes" || response.ToLower() == "y")
         {
             Random randomGenerator = new Random();
-            int magicNumber = randomGenerator.Next(1, 5);
+            int magicNumber = randomGenerator.Next(1, 100);
 
             int guess = -1;
 
